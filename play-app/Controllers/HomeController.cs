@@ -11,7 +11,7 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-        Console.WriteLine(logger);
+        Console.WriteLine("hs");
     }
 
     public IActionResult Index()
